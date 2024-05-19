@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 
 // Azure Storage configuration
 const accountName = "rspbdisplaystorage";
-const accountKey = process.env.accountKey || "KJqjzliypxe3LYzXyCUanTqfzz3gCly6+bmyzIQJHEM/wH2kTx5tQRGbOqX05CmCofeAVyzLkUat+AStRJUiFw==";
+const accountKey = "KJqjzliypxe3LYzXyCUanTqfzz3gCly6+bmyzIQJHEM/wH2kTx5tQRGbOqX05CmCofeAVyzLkUat+AStRJUiFw==";
 const queueName = "msgs";
 const sharedKeyCredential = new StorageSharedKeyCredential(accountName, accountKey);
 const queueServiceClient = new QueueServiceClient(`https://${accountName}.queue.core.windows.net`, sharedKeyCredential);
