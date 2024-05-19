@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": {
-
-  },
+  "scripts": {},
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@azure/storage-queue": "^12.17.0",
+    "body-parser": "^1.20.2",
     "express": "^4.19.2"
   }
 }
